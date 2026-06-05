@@ -1,20 +1,20 @@
 {
-    "version": "0.11.0",
+    "version": "0.12.0",
     "description": "Read CSV from stdin, query with SQL, write CSV to stdout",
     "homepage": "https://github.com/vmvarela/sql-pipe",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vmvarela/sql-pipe/releases/download/v0.11.0/sql-pipe-x86_64-windows.exe#/sql-pipe.exe",
-            "hash": "018a9a21b1d31e2d5b1b65df5b2b3303ae092c73ef14c38a92a83ee6e837ebf5"
+            "url": "https://github.com/vmvarela/sql-pipe/releases/download/v0.12.0/sql-pipe-x86_64-windows.exe#/sql-pipe.exe",
+            "hash": "235523de3db7e8902c85fc34983e549ad5f338b0d93d741de4411006839a0872"
         },
         "32bit": {
-            "url": "https://github.com/vmvarela/sql-pipe/releases/download/v0.11.0/sql-pipe-x86-windows.exe#/sql-pipe.exe",
-            "hash": "b7d4dd0fa9f5358b19baafda8c20c2bfa3f28aad3182546922b1ee0d6b24e2f1"
+            "url": "https://github.com/vmvarela/sql-pipe/releases/download/v0.12.0/sql-pipe-x86-windows.exe#/sql-pipe.exe",
+            "hash": "28eceb4d4eeb5988ab21ec92ac625fb62b24e03dfef5722e74dc48b865c7d775"
         },
         "arm64": {
-            "url": "https://github.com/vmvarela/sql-pipe/releases/download/v0.11.0/sql-pipe-aarch64-windows.exe#/sql-pipe.exe",
-            "hash": "fbe911e74ec8707edb5552d6d9c5aec560d5887abe015ddf8901496eae4d05b3"
+            "url": "https://github.com/vmvarela/sql-pipe/releases/download/v0.12.0/sql-pipe-aarch64-windows.exe#/sql-pipe.exe",
+            "hash": "797fdb9af6c066a94df37580e304060d1d5b61cf46daae70a2f3ae592cfbaf0a"
         }
     },
     "bin": "sql-pipe.exe",
