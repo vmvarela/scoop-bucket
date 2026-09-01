@@ -1,20 +1,20 @@
 {
-    "version": "0.1.6",
+    "version": "0.1.7",
     "description": "Checkers game: CLI, TUI and embedded web server in one binary",
     "homepage": "https://github.com/vmvarela/damas",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vmvarela/damas/releases/download/v0.1.6/damas-x86_64-windows.exe#/damas.exe",
-            "hash": "38838e4cf6d7abd6684df09ddc06f3ca0c44b8334681389112f220ea70d60fe4"
+            "url": "https://github.com/vmvarela/damas/releases/download/v0.1.7/damas-x86_64-windows.exe#/damas.exe",
+            "hash": "8a139e160f9643a7665f4d30b71c74d11df639bc331d0b4049b09386b91b8c52"
         },
         "32bit": {
-            "url": "https://github.com/vmvarela/damas/releases/download/v0.1.6/damas-x86-windows.exe#/damas.exe",
-            "hash": "8e03e6b3aa5492f2c527a11194ae8a16a0cfac45e3f6b58776b8733a67c6f062"
+            "url": "https://github.com/vmvarela/damas/releases/download/v0.1.7/damas-x86-windows.exe#/damas.exe",
+            "hash": "5ccaaeb1ea7d9eb43ac698f2fabe136b13ee3e84b4634e6e194e611e13eadd72"
         },
         "arm64": {
-            "url": "https://github.com/vmvarela/damas/releases/download/v0.1.6/damas-aarch64-windows.exe#/damas.exe",
-            "hash": "a554acaad3bcd397a7ecb6bfa6cbb667840b07469d417d5161f163dddb56d977"
+            "url": "https://github.com/vmvarela/damas/releases/download/v0.1.7/damas-aarch64-windows.exe#/damas.exe",
+            "hash": "f148ed49ef49c6996b5ddf8e9cf8c7c841cc25b0f684e9481bca239cef8a071a"
         }
     },
     "bin": "damas.exe",
