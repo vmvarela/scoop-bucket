@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "package": "damas",
+  "version": "0.1.10",
+  "architectures": {
+    "64bit": {
+      "version": "0.1.10",
+      "sha256": "22935b6e950964fb72ac59589de09448b772c9c5fade72a02b7ec7fef1e2a4d7",
+      "asset": "damas-x86_64-windows.exe"
+    },
+    "32bit": {
+      "version": "0.1.10",
+      "sha256": "70c9f4c8c6b7d9de8f83351253ea2c7a99cd739f57328b8cb94a544319b417bd",
+      "asset": "damas-x86-windows.exe"
+    },
+    "arm64": {
+      "version": "0.1.10",
+      "sha256": "9fc10b19104e728fbc2be4d013bc5931abba5c2e33cba45ce59cafd21f2fa734",
+      "asset": "damas-aarch64-windows.exe"
+    }
+  }
+}
