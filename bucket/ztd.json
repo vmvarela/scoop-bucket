@@ -1,0 +1,38 @@
+{
+    "version": "0.3.0",
+    "description": "Local task system for humans and agents",
+    "homepage": "https://github.com/vmvarela/ztd",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/vmvarela/ztd/releases/download/v0.3.0/ztd-x86_64-windows.exe#/ztd.exe",
+            "hash": "cf9f0332b8d3434a23cbf60ec9a05f30c275163da7044abe19daa807faec8154"
+        },
+        "32bit": {
+            "url": "https://github.com/vmvarela/ztd/releases/download/v0.3.0/ztd-x86-windows.exe#/ztd.exe",
+            "hash": "853c09c66cafb98146d5be9a1db873b6a07d4d361b4001bf371ab38da306612a"
+        },
+        "arm64": {
+            "url": "https://github.com/vmvarela/ztd/releases/download/v0.3.0/ztd-aarch64-windows.exe#/ztd.exe",
+            "hash": "bb0cd0b4fa8fb8c7e28bf7e9a7f5099b56025f10a3acbc055eaeba5b6c44a27e"
+        }
+    },
+    "bin": "ztd.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/vmvarela/ztd/releases/download/v$version/ztd-x86_64-windows.exe#/ztd.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/vmvarela/ztd/releases/download/v$version/ztd-x86-windows.exe#/ztd.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/vmvarela/ztd/releases/download/v$version/ztd-aarch64-windows.exe#/ztd.exe"
+            }
+        },
+        "hash": {
+            "url": "https://github.com/vmvarela/ztd/releases/download/v$version/sha256sums.txt"
+        }
+    }
+}
