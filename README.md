@@ -15,6 +15,7 @@ scoop install sql-pipe
 |---------|-------------|
 | [sql-pipe](https://github.com/vmvarela/sql-pipe) | Read CSV from stdin, query with SQL, write CSV to stdout |
 | [damas](https://github.com/vmvarela/damas) | Draughts engine and apps (English draughts and Spanish damas) |
+| [zepp-life](https://github.com/vmvarela/zepp-life) | Sync Zepp Life activity and body measurements into a local SQLite database |
 
 ## How the manifests are built
 
@@ -25,6 +26,6 @@ hash per package and Windows architecture, so a release that ships only some
 architectures keeps the previous ones instead of pointing at a missing file.
 
 `.github/workflows/update.yml` runs on `repository_dispatch`
-(`update-sql-pipe`, `update-damas`, `update-ztd`) or manually with a package and version. It
+(`update-sql-pipe`, `update-damas`, `update-ztd`, `update-zepp-life`) or manually with a package and version. It
 resolves the target from the catalog, regenerates `bucket/<package>.json` from
 the release checksums, and commits the manifest with the candidate state.

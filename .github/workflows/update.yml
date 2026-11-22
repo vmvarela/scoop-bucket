@@ -5,7 +5,7 @@ on:
   schedule:
     - cron: "57 5 * * *"
   repository_dispatch:
-    types: [update-sql-pipe, update-damas, update-ztd]
+    types: [update-sql-pipe, update-damas, update-ztd, update-zepp-life]
   workflow_dispatch:
     inputs:
       package:
@@ -17,6 +17,7 @@ on:
           - sql-pipe
           - damas
           - ztd
+          - zepp-life
       version:
         description: "Release version without v; leave empty to use latest stable"
         required: false
@@ -74,6 +75,7 @@ jobs:
             update-sql-pipe|sql-pipe) target="sql-pipe" ;;
             update-damas|damas) target="damas" ;;
             update-ztd|ztd) target="ztd" ;;
+            update-zepp-life|zepp-life) target="zepp-life" ;;
             *) echo "::error::Unknown package update event."; exit 1 ;;
           esac
 
