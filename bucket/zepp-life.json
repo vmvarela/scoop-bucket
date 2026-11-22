@@ -1,0 +1,31 @@
+{
+    "version": "0.1.0",
+    "description": "Sync Zepp Life activity and body measurements into a local SQLite database",
+    "homepage": "https://github.com/vmvarela/zepp-life",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/vmvarela/zepp-life/releases/download/v0.1.0/zepp-life-windows-amd64.exe#/zepp-life.exe",
+            "hash": "eba0020796d32f7be30ddb42bd7b1e2ac69d43421e36f72a2836aac22af56555"
+        },
+        "arm64": {
+            "url": "https://github.com/vmvarela/zepp-life/releases/download/v0.1.0/zepp-life-windows-arm64.exe#/zepp-life.exe",
+            "hash": "fcb23e27ca61c519b075f56665f35a3ebf0db068028a1cb540becc055cc684a7"
+        }
+    },
+    "bin": "zepp-life.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/vmvarela/zepp-life/releases/download/v$version/zepp-life-windows-amd64.exe#/zepp-life.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/vmvarela/zepp-life/releases/download/v$version/zepp-life-windows-arm64.exe#/zepp-life.exe"
+            }
+        },
+        "hash": {
+            "url": "https://github.com/vmvarela/zepp-life/releases/download/v$version/sha256sums.txt"
+        }
+    }
+}

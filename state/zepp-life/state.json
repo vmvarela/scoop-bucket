@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "package": "zepp-life",
+  "version": "0.1.0",
+  "architectures": {
+    "64bit": {
+      "version": "0.1.0",
+      "sha256": "eba0020796d32f7be30ddb42bd7b1e2ac69d43421e36f72a2836aac22af56555",
+      "asset": "zepp-life-windows-amd64.exe"
+    },
+    "arm64": {
+      "version": "0.1.0",
+      "sha256": "fcb23e27ca61c519b075f56665f35a3ebf0db068028a1cb540becc055cc684a7",
+      "asset": "zepp-life-windows-arm64.exe"
+    }
+  }
+}
