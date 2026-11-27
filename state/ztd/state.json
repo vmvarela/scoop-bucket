@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "package": "ztd",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "architectures": {
     "64bit": {
-      "version": "0.3.0",
-      "sha256": "cf9f0332b8d3434a23cbf60ec9a05f30c275163da7044abe19daa807faec8154",
+      "version": "0.4.0",
+      "sha256": "70436141ccd1268da284855c40b41ed505e1015fea6ef2afabe8ce7829e36ad6",
       "asset": "ztd-x86_64-windows.exe"
     },
     "32bit": {
-      "version": "0.3.0",
-      "sha256": "853c09c66cafb98146d5be9a1db873b6a07d4d361b4001bf371ab38da306612a",
+      "version": "0.4.0",
+      "sha256": "e309dde9ee0d4b20b9b90680a515ae99c52a7ade8f603ded043141d44744c867",
       "asset": "ztd-x86-windows.exe"
     },
     "arm64": {
-      "version": "0.3.0",
-      "sha256": "bb0cd0b4fa8fb8c7e28bf7e9a7f5099b56025f10a3acbc055eaeba5b6c44a27e",
+      "version": "0.4.0",
+      "sha256": "35e0c5df73ea24e3a4d009bbbf7729b58e5b2417c49a7ea819cd43dd746a6e6a",
       "asset": "ztd-aarch64-windows.exe"
     }
   }
